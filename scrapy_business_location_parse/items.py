@@ -8,7 +8,19 @@
 import scrapy
 
 
-class ScrapyBusinessLocationParseItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class SevenEleven(scrapy.Item):
+    factual_id = scrapy.Field()
+    name = scrapy.Field()
+    address = scrapy.Field()
+    locality = scrapy.Field()
+    region = scrapy.Field()
+    post_code = scrapy.Field()
+    country = scrapy.Field()
+    neighborhood = scrapy.Field()
+    tel = scrapy.Field()
+    website = scrapy.Field()
+    latitude = scrapy.Field()
+    longitude = scrapy.Field()
+    hours_of_operations = scrapy.Field()
+    category_labels = scrapy.Field()
+    chain_name = scrapy.Field()
