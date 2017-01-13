@@ -90,5 +90,4 @@ ENV/
 
 .idea
 scrapy_business_location_parse/config.py
-scrapy_business_location_parse/data/*.csv
-scrapy_business_location_parse/data/*.json
+data/*
